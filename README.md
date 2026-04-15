@@ -33,6 +33,9 @@ Many individuals struggle to track daily expenses and understand spending patter
 cd expense-tracker
 pip install pandas matplotlib
 python main.py
+```
+
+
 
 
 ## 🛒 Online Retail Sales Analysis Database (SQL)
@@ -87,6 +90,7 @@ SOURCE schema.sql;
 
 -- Run queries.sql
 SOURCE queries.sql;
+```
 
 
 
