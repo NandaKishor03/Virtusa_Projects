@@ -97,8 +97,6 @@ SOURCE queries.sql;
 ---
 
 ### 📂 Java Project — Library Management System
-
-```markdown
 # 📚 Library Management System (Java)
 
 ### 📌 Problem Statement
@@ -133,3 +131,4 @@ This project develops a Java-based system to automate library operations.
 ```bash
 javac Main.java
 java Main
+```
