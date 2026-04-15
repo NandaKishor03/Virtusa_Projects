@@ -18,7 +18,7 @@ public class Main {
             System.out.println("8. Display Books");
             System.out.println("9. Display Users");
             System.out.println("10. Display Transactions");
-            System.out.println(|"11. Search Book: ");
+            System.out.println("11. Search Book: ");
             System.out.println("0. Exit");
 
             System.out.print("\nEnter your Choice: ");
