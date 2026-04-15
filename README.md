@@ -116,14 +116,11 @@ This project develops a Java-based system to automate library operations.
 - User registration system  
 - Issue & return books with due dates  
 - Fine calculation for late returns  
-- Search books by title/author  
 
 ---
 
 ## 🛠️ Tech Stack
 - Core Java (OOP concepts)  
-- Optional: JDBC + MySQL for database integration  
-- Console-based interface or GUI (Swing/JavaFX)  
 
 ---
 

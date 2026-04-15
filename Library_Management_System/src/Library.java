@@ -86,6 +86,21 @@ public class Library {
         }
     }
 
+    public void searchBook(String keyword) {
+    boolean found = false;
+    for (Book b : books) {
+        if (b.getTitle().toLowerCase().contains(keyword.toLowerCase()) ||
+            b.getAuthor().toLowerCase().contains(keyword.toLowerCase())) {
+            System.out.println(b);
+            found = true;
+        }
+    }
+    if (!found) {
+        System.out.println("No books found matching keyword: " + keyword);
+    }
+}
+
+
     public void displayBooks(){
         if (books.isEmpty()){
             System.out.println("No Books Available in the Library");
